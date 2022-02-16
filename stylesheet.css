@@ -15,10 +15,10 @@ body {
 
 h1 {
     font-size: large;
+    font:'Segoe UI';
 }
 
 h1:hover {color:magenta}
-::backdrop
 
 p {
     font-family: -apple-system, BlinkMacSystemFont,
