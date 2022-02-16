@@ -15,6 +15,7 @@ button::after {
 table {
     min-width: 40%;
     border-style: groove;
+    text-align: center;
 }
 
 body {
