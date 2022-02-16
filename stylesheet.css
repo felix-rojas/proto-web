@@ -1,3 +1,8 @@
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 button {
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
@@ -45,9 +50,4 @@ footer {
     border: 0.5px solid rgb(3, 83, 83);
     bottom: 0%;
     position: sticky;
-}
-
-.center {
-    margin-left: auto;
-    margin-right: auto;
 }
