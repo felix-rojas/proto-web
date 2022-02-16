@@ -13,8 +13,9 @@ button::after {
 }
 
 table {
-    max-width: 60%;
+    min-width: 40%;
     border-collapse: collapse;
+    border-style: groove;
 }
 
 body {
