@@ -32,8 +32,6 @@ h1 {
     font-size: x-large;
     text-align: center;
     text-decoration: aliceblue;
-    position: sticky;
-    top: auto;
 }
 
 h1:hover {
