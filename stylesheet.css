@@ -30,8 +30,10 @@ body {
 
 h1 {
     font-size: x-large;
-    position: fixed;
-    margin-top: 0%;
+    text-align: center;
+    text-decoration: aliceblue;
+    position: sticky;
+    top: auto;
 }
 
 h1:hover {
