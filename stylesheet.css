@@ -2,6 +2,7 @@ button {
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
     border: 0.5px solid rgb(48, 48, 48);
+    margin: 0 auto
 }
 
 button::before {
@@ -16,14 +17,17 @@ table {
     min-width: 40%;
     border-collapse: collapse;
     border-style: groove;
+    margin: 0 auto
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
 }
 
 h1 {
     font-size: x-large;
+    margin: 0 auto
 }
 
 h1:hover {
@@ -32,11 +36,13 @@ h1:hover {
 
 h2 {
     font-size: medium;
-    color: rgb(3, 83, 83)
+    color: rgb(3, 83, 83);
+    margin: 0 auto;
 }
 
 p {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
 }
 
 footer {
@@ -45,9 +51,5 @@ footer {
     border: 0.5px solid rgb(3, 83, 83);
     bottom: 0%;
     position: sticky;
-}
-
-.center {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
