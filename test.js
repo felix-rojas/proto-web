@@ -1,12 +1,12 @@
 // not-typed language
 // variables, constants, console
 
-let numero_cervezas = 0;
+let rand_int = 0;
 
-console.log(numero_cervezas) 
-console.info(numero_cervezas)
-console.warn(numero_cervezas)
-console.error(numero_cervezas)
+console.log(rand_int) 
+console.info(rand_int)
+console.warn(rand_int)
+console.error(rand_int)
 
 // for loop with local variable
 for (let i = 1; i <=10; i++){
