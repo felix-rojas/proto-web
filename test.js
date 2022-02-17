@@ -48,3 +48,4 @@ const modern_apology = () => console.log("Machines don't apoogize");
 modern_apology(); // execute function
 
 document.getElementById("body").onclick =  modern_apology;
+
