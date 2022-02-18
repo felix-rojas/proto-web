@@ -23,7 +23,9 @@ console.log(j)
 
 // use constants to avoid modifying the variable such that
 // constants are declared within the scope, just like let
-const constant_beer = 2;
+const constant_number = 2;
+alert("The constant number is: " + constant_number);
+
 
 // to pop a message within the window
 alert("Hello!");
@@ -48,4 +50,3 @@ const modern_apology = () => console.log("Machines don't apoogize");
 modern_apology(); // execute function
 
 document.getElementById("body").onclick =  modern_apology;
-
