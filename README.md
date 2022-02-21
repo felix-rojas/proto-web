@@ -7,7 +7,7 @@
 <h3 align="center">MaterializeCSS</h3>
 
 <p align="center">
-  Materialize, a CSS Framework based on material design. This website was made using this framework, with non-profit and educational purposes.
+  This website was made using Materialize, a CSS Framework based on material design, with non-profit and educational purposes.
   <br>
   <a href="http://materializecss.com/"><strong>-- Browse the docs --</strong></a>
   <br>
