@@ -1,6 +1,8 @@
 const path = require('path');
 const natgas = require('../models/natgas');
 
+
+
 exports.cerveza = (request, response, next) => {
     response.sendFile(path.join(__dirname, '..', 'views', 'cerveza_view.html'));
 };
@@ -18,7 +20,7 @@ exports.cerveza = (request, response, next) => {
 //     response.redirect('/capybaras');
 // };
 
-// exports.listar = (request, response, next) => {
-//     console.log('Ruta /capybaras');
-//     response.render('lista', {capybaras: Capybara.fetchAll()}); 
-// }
+exports.listar = (request, response, next) => {
+    console.log('Ruta /capybaras');
+    response.render('lista', {capybaras: Capybara.fetchAll()}); 
+}
