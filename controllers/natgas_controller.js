@@ -12,13 +12,17 @@ exports.cerveza = (request, response, next) => {
 //     response.render('nuevo', {nombre: 'Lalo'}); 
 // };
 
-// exports.post_nuevo = (request, response, next) => {
-//     console.log('POST /capybaras/nuevo');
-//     console.log(request.body);
-//     const capybara = new Capybara(request.body.nombre);
-//     capybara.save();
-//     response.redirect('/capybaras');
-// };
+exports.post_nuevo = (request, response, next) => {
+    console.log('POST /capybaras/nuevo');
+    console.log(request.body);
+    const item = new Item(request.body.nombre);
+    
+    item.save()
+        .then(() => {
+            response.redirect('/capybaras');
+        })
+        .catch(err => console.log(err));
+};
 
 exports.listar = (request, response, next) => {
     console.log('Ruta /capybaras');

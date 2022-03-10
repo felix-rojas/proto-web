@@ -1,5 +1,6 @@
 
 const db = require('../util/database');
+module.exports
 
 db.execute('Consulta SQL por ejemplo: SELECT * FROM mi_tabla');
 

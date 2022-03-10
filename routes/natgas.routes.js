@@ -8,4 +8,6 @@ router.get('/nuevo', natgasController.get_nuevo);
 router.post('/nuevo', natgasController.post_nuevo);
 router.use('/', natgasController.listar);
 
+router.get('/:something_id', controllerSomething.getSomething);
+
 module.exports = router;
