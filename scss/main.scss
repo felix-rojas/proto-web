@@ -1,7 +1,8 @@
 @import './resets';
-@import './variables';
+@import './fuentes-natgas';
+@import './colores-natgas';
 
 body{
-    background: var(--primary-color);
+    background: var($azul-natgas);
     font-family: "Gilroy";
 }
