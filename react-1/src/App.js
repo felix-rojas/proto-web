@@ -1,18 +1,22 @@
 // this is a single component
 // react creates the views in here and we can make functions
 import React from 'react';
+import Hello from './Hello';
+
 
 function App(){
-  const sayHello = () => {
-    console.log("Looik ma im programming");
-  };
-  
-  return(
+
+  return (
     <div>
-      <h1>Hello!</h1>
-      <button onClick={sayHello}>Hello</button>
+      {/* 
+      below is the app component that we 
+      just created, anything can be made 
+      in small modules so that it is
+      more manageable 
+      */}
+      <Hello/> 
     </div>
-  );
+  )
 }
 
 // exports this file to index.js
