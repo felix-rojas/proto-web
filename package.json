@@ -1,7 +1,7 @@
 {
-  "name": "natgas-alpha",
+  "name": "personal-alpha",
   "version": "0.0.1",
-  "description": "Web app for natgas",
+  "description": "Personal Stuff",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js"
@@ -11,7 +11,6 @@
     "url": "git+https://github.com/felix-rojas/proto-web.git"
   },
   "keywords": [
-    "natgas",
     "bootstrap",
     "webapp"
   ],
